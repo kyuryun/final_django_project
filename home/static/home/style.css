@@ -1,9 +1,10 @@
 body{
     background: white url("images/background.png") no-repeat;
     background-position: center;
-    background-size: 10%;
+    background-size: 15%;
     height: 500px;
-    border-top: 10px solid #ccc;
+    border-top: 10px solid white;
+
 }
 
 title{
@@ -11,6 +12,23 @@ title{
     font-weight: bold;
 }
 
-li a {
-    color: green;
+h4, p{
+    color: darkblue;
 }
+
+li a {
+    color: mediumpurple;
+    font-family: cursive;
+}
+
+li a:hover{
+    font-size:110%;
+}
+
+
+a.nav-link:hover{
+    font-size: 110%;
+    background: linear-gradient(to right, #2bc0e4, #eaecc6);
+}
+
+

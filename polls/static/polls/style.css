@@ -1,8 +1,14 @@
 body {
-    background: white url("images/background.png") no-repeat;
-    background-position: right top;
+    background: white url("images/poll.jpg") no-repeat;
+    background-position: 50% -180%;
 }
 
 li a {
-    color: green;
+    color: mediumpurple;
+    font-family: cursive;
+}
+
+a.nav-link:hover{
+    font-size: 110%;
+    background: linear-gradient(to right, #2bc0e4, #eaecc6);
 }
